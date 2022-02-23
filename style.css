@@ -3,7 +3,11 @@ body{
 font-family: 'Oswald', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Ubuntu', sans-serif;
+margin-left: 5%;
+margin-right: 5%;
+text-decoration: none;
 }
+
 
 
 .orange{
@@ -14,6 +18,7 @@ h1{
 }
 .flexible-container{
     display: flex;
+    margin-bottom: 80px;
     
 }
  
@@ -22,9 +27,11 @@ h1{
     width: 10%;
     padding-left: 5%;
    
+   
 }
 .half-width img{
     width: 60%;
+    
 }
 .link-button{
     background-image: linear-gradient(orange,rgb(194, 33, 4));
@@ -49,6 +56,8 @@ h1{
  }
  .line{
     border-left:3px solid rgb(158, 6, 6);
+    border-left: 10%;
+    padding: 10px;
     
     
  }
@@ -57,11 +66,21 @@ h1{
  }
  .box1{
 
-    background-color: rgb(160, 170, 150);
+    background-color: rgb(214, 230, 198);
     
  
  }
  .box2{
     background-color: rgb(253, 244, 244);
+    
+ }
+ .space{
+     margin-right: 10%;
+     
+ }
+ .footer{
+     text-align: center;
+    background-color: black;
+    color: white;
     
  }
