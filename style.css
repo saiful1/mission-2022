@@ -84,3 +84,16 @@ h1{
     color: white;
     
  }
+
+ .forom{
+background-color: palegreen;
+text-align: center;
+ }
+ input{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+ }
